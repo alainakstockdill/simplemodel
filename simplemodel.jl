@@ -1,5 +1,5 @@
 # consumer resource model - want to run different equations in parallel
-using Plots, DifferentialEquations, Parameters, BifurcationKit, Statistics, DataFrames, CSV
+using Plots, DifferentialEquations, Parameters, Statistics, DataFrames, CSV
 
 function rosemac!(du, u, params, t)
 

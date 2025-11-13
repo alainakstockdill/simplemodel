@@ -1,0 +1,59 @@
+############### Job 28613574 prolog ###############
+SLURM_NODELIST: cpu-6-89
+############### Job 28613574 prolog ###############
+finished loading, starting file
+
+############### Job 28613574 summary from cpu-6-89 ###############
+Name                : simplemodel
+User                : astock
+Account             : fvaldovigrp
+Partition           : med2
+Nodes               : cpu-6-89
+Cores               : 2
+GPUs                : 0
+State               : FAILED
+ExitCode            : 1:0
+Submit              : 2025-11-13T11:06:53
+Start               : 2025-11-13T11:06:54
+End                 : 2025-11-13T11:06:57
+Reserved walltime   : 12:00:00
+Used walltime       : 00:00:03
+Used CPU time       : 00:00:02
+% User (Computation): 84.09%
+% System (I/O)      :  0.00%
+Mem reserved        : 100G
+Max Mem used        : 185.66M (cpu-6-89)
+Max Disk Write      : 0.00  (cpu-6-89)
+Max Disk Read       : 0.00  (cpu-6-89)
+
+############### Job 28613574 info ###############
+JobId=28613574 JobName=simplemodel
+   UserId=astock(2208842) GroupId=astock(2208842) MCS_label=N/A
+   Priority=8212 Nice=0 Account=fvaldovigrp QOS=fvaldovigrp-med2-qos
+   JobState=COMPLETING Reason=NonZeroExitCode Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=1:0
+   RunTime=00:00:03 TimeLimit=12:00:00 TimeMin=N/A
+   SubmitTime=2025-11-13T11:06:53 EligibleTime=2025-11-13T11:06:53
+   AccrueTime=2025-11-13T11:06:53
+   StartTime=2025-11-13T11:06:54 EndTime=2025-11-13T11:06:57 Deadline=N/A
+   PreemptEligibleTime=2025-11-13T11:06:54 PreemptTime=None
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2025-11-13T11:06:54 Scheduler=Main
+   Partition=med2 AllocNode:Sid=farm:3047201
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=cpu-6-89
+   BatchHost=cpu-6-89
+   NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=100G,node=1,billing=1
+   AllocTRES=cpu=2,mem=100G,node=1,billing=2
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=100G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=/home/astock/simplemodel/simplemodel.sh
+   WorkDir=/home/astock/simplemodel
+   StdErr=/home/astock/simplemodel/slurm_log/sterror_28613574.txt
+   StdIn=/dev/null
+   StdOut=/home/astock/simplemodel/slurm_log/stdoutput_28613574.txt
+   MailUser=astockdill@ucdavis.edu MailType=END
+   
+

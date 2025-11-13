@@ -4,13 +4,12 @@
 #SBATCH --job-name=simplemodel
 
 # setting home directory
-#SBATCH -D /home/astock/chileanatn/sims
+#SBATCH -D /home/astock/simplemodel
 
 # setting standard error output
-#SBATCH -e /home/astock/chileanatn/sims/slurm_log/sterror_%j.txt
-
+#SBATCH -e /home/astock/simplemodel/slurm_log/sterror_%j.txt
 # setting standard output
-#SBATCH -o /home/astock/chileanatn/sims/slurm_log/stdoutput_%j.txt
+#SBATCH -o /home/astock/simplemodel/slurm_log/stdoutput_%j.txt
 
 # setting account
 #SBATCH -A fvaldovigrp
